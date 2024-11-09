@@ -1,0 +1,18 @@
+ git init
+Purpose: Initializes a new Git repository in the current directory.
+Explanation: This creates a .git subdirectory that contains all the necessary metadata for version control.
+2. git add README.md
+Purpose: Stages the README.md file for commit.
+Explanation: This command tells Git to track the changes made to README.md and prepare it to be committed.
+3. git commit -m "first commit"
+Purpose: Commits the staged changes with a commit message "first commit".
+Explanation: This creates a snapshot of the changes in the repository and logs the commit message.
+4. git branch -M main
+Purpose: Renames the current branch to main.
+Explanation: The -M flag forces the renaming of the branch, which is often used to change the default branch name from master to main.
+5. git remote add origin https://github.com/littleone21131/a3b.git
+Purpose: Adds a remote repository named origin that points to the specified GitHub URL.
+Explanation: This links the local repository to a remote repository on GitHub, so you can push and pull changes.
+6. git push -u origin main
+Purpose: Pushes the main branch to the remote repository origin.
+Explanation: The -u flag sets origin main as the default upstream branch, so future git push and git pull commands can be used without specifying the remote and branch.
