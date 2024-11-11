@@ -16,3 +16,13 @@ Explanation: This links the local repository to a remote repository on GitHub, s
 6. git push -u origin main
 Purpose: Pushes the main branch to the remote repository origin.
 Explanation: The -u flag sets origin main as the default upstream branch, so future git push and git pull commands can be used without specifying the remote and branch.
+Git is a distributed version control system used to track changes in source code during software development. It allows multiple developers to work on a project simultaneously without overwriting each other's work. Git stores the history of changes, enabling rollbacks and version comparisons. It operates with repositories, which can be local or remote (e.g., on GitHub or GitLab). Git supports branching and merging, making it ideal for collaborative development.
+GitHub is a web-based platform that hosts Git repositories and provides tools for version control, collaboration, and project management. It allows developers to store their code, track changes, and collaborate with others through pull requests, issues, and discussions. GitHub integrates with continuous integration/continuous deployment (CI/CD) tools and offers features like wikis, project boards, and code reviews. It is widely used for both open-source and private software development. GitHub also supports GitHub Actions for automating workflows.
+repository (or repo) is a storage location where your project files, including code, documentation, and history of changes, are stored and managed. In Git and GitHub, a repository contains all the versions of your project files, allowing you to track changes, collaborate with others, and revert to earlier versions if needed. Repositories can be either local (on your computer) or remote (on a server like GitHub). They include branches for parallel development and are the central unit for version control.
+
+
+
+
+
+
+
